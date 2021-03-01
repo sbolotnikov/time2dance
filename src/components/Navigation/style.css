@@ -1,0 +1,178 @@
+
+
+
+.heroImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 50%;
+    background: url(./hero-img.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.brandLogo {
+    position: fixed;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+i {
+    font-size: 40px;
+}
+
+.openMenu,
+.closeMenu {
+    position: absolute;
+    height:2em;
+    width:2em;
+    overflow:visible;
+    margin: .5em;
+    right: 0;
+}
+
+.menuContainer {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    right: -50%;
+    z-index: 2;
+    background: -webkit-linear-gradient(-45deg, rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.menuLinks {
+    position: absolute;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    width: 90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.menuLinks .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 20px 20px 50x rgba(0,0,0, 0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    margin: 4px 0;
+    /* padding: 10px 0 10px 0; */
+}
+
+.menuLinks .link {
+    font-size: 1.7em;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    color:#a3100d;
+    overflow: hidden;
+
+}
+
+.socialMedia {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.socialMedia .link a {
+    margin: 5vw;
+    font-size: 3em;
+    color:#a3100d;
+    box-shadow: 20px 20px 50x rgba(0,0,0, 0.5);
+}
+
+@media (max-width: 740px) {
+    .menuContainer {
+        width: 100%;
+        right: -100%;
+    }
+
+    .brandLogo {
+        width: 100%;
+    }
+
+    /* .menuLinks .link div {
+        font-size: 24px;
+        padding: 10px 0 16px 0;
+    }
+
+    .menuLinks .menuLink1 div::after,
+    .menuLinks .menuLink2 div::after,
+    .menuLinks .menuLink3 div::after,
+    .menuLinks .menuLink4 div::after,
+    .menuLinks .menuLink5 div::after,
+    .menuLinks .menuLink6 div::after {
+        display: none;
+    } */
+}
+
+/* .menuLinks .menuLink1 div::after {
+    content: url(./menu-link-1.png);
+    position: absolute;
+    top: 5%;
+    right: -20px;
+    z-index:500;
+}
+
+.menuLinks .menuLink2 div::after {
+    content: url(./menu-link-2.png);
+    position: absolute;
+    top: 30%;
+    left: -20px;
+}
+
+.menuLinks .menuLink1:hover div::after,
+.menuLinks .menuLink2:hover div::after {
+    animation-name: tada;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+} */

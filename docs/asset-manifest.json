@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/time2dance/static/css/main.7da15a76.chunk.css",
+    "main.js": "/time2dance/static/js/main.410d67f4.chunk.js",
+    "main.js.map": "/time2dance/static/js/main.410d67f4.chunk.js.map",
+    "runtime-main.js": "/time2dance/static/js/runtime-main.412c80b6.js",
+    "runtime-main.js.map": "/time2dance/static/js/runtime-main.412c80b6.js.map",
+    "static/css/2.7d1a4819.chunk.css": "/time2dance/static/css/2.7d1a4819.chunk.css",
+    "static/js/2.08f4fb9c.chunk.js": "/time2dance/static/js/2.08f4fb9c.chunk.js",
+    "static/js/2.08f4fb9c.chunk.js.map": "/time2dance/static/js/2.08f4fb9c.chunk.js.map",
+    "index.html": "/time2dance/index.html",
+    "precache-manifest.ddfbc4f97660fde02e5b486df7aa6d24.js": "/time2dance/precache-manifest.ddfbc4f97660fde02e5b486df7aa6d24.js",
+    "service-worker.js": "/time2dance/service-worker.js",
+    "static/css/2.7d1a4819.chunk.css.map": "/time2dance/static/css/2.7d1a4819.chunk.css.map",
+    "static/css/main.7da15a76.chunk.css.map": "/time2dance/static/css/main.7da15a76.chunk.css.map",
+    "static/js/2.08f4fb9c.chunk.js.LICENSE.txt": "/time2dance/static/js/2.08f4fb9c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/time2dance/static/media/hero-img.e8eb0c93.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.412c80b6.js",
+    "static/css/2.7d1a4819.chunk.css",
+    "static/js/2.08f4fb9c.chunk.js",
+    "static/css/main.7da15a76.chunk.css",
+    "static/js/main.410d67f4.chunk.js"
+  ]
+}
